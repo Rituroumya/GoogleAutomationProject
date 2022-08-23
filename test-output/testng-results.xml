@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64" started-at="2022-08-23T15:37:19Z" finished-at="2022-08-23T15:37:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64" started-at="2022-08-23T15:37:19Z" finished-at="2022-08-23T15:37:19Z">
+      <class name="com.test.Friuts$Fruits">
+        <test-method status="PASS" signature="melon()[pri:1, instance:com.test.Friuts$Fruits@68be2bc2]" name="melon" duration-ms="8" started-at="2022-08-23T15:37:19Z" finished-at="2022-08-23T15:37:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- melon -->
+        <test-method status="PASS" signature="orange()[pri:2, instance:com.test.Friuts$Fruits@68be2bc2]" name="orange" duration-ms="2" started-at="2022-08-23T15:37:19Z" finished-at="2022-08-23T15:37:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orange -->
+        <test-method status="PASS" signature="grapes()[pri:3, instance:com.test.Friuts$Fruits@68be2bc2]" name="grapes" duration-ms="1" started-at="2022-08-23T15:37:19Z" finished-at="2022-08-23T15:37:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grapes -->
+        <test-method status="PASS" signature="apple()[pri:4, instance:com.test.Friuts$Fruits@68be2bc2]" name="apple" duration-ms="3" started-at="2022-08-23T15:37:19Z" finished-at="2022-08-23T15:37:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple -->
+        <test-method status="PASS" signature="sopota()[pri:5, instance:com.test.Friuts$Fruits@68be2bc2]" name="sopota" duration-ms="4" started-at="2022-08-23T15:37:19Z" finished-at="2022-08-23T15:37:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sopota -->
+        <test-method status="PASS" signature="mango()[pri:6, instance:com.test.Friuts$Fruits@68be2bc2]" name="mango" duration-ms="13" started-at="2022-08-23T15:37:19Z" finished-at="2022-08-23T15:37:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mango -->
+      </class> <!-- com.test.Friuts$Fruits -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
