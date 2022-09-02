@@ -16,7 +16,7 @@ public class MEdplusPractice {
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 		WebElement product = driver.findElement(By.xpath("//input[@id='enterval']"));
-	product.sendKeys("dolo650",Keys.ENTER);
+	product.sendKeys("dolo650");
 	
 
 	}

@@ -25,7 +25,9 @@ public class OpenCart {
 			{
 			each.click();
 			}
-		}
+		}		
+		driver.findElement(By.xpath("//img[@alt='HP LP3065']")).click();
+		driver.findElement(By.xpath("//button[@id='button-cart']")).click();
 
 	}
 

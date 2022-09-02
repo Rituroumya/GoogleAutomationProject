@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="3" parallel="true" name="Test">
+    <classes>
+      <class name="testNGpractice.DropdownPrac"/>
+      <class name="testNGpractice.FaceboocPrac"/>
+      <class name="testNGpractice.BootstrapDropdown"/>
+      <class name="testNGpractice.DragDrop"/>
+      <class name="testNGpractice.AmazonLogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

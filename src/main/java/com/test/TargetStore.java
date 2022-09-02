@@ -19,7 +19,7 @@ public class TargetStore {
 		
 		WebElement catagory = driver.findElement(By.linkText("Categories"));
 		catagory.click();
-		driver.findElement(By.xpath("//div[@id='overlay-3']")).click();
+		driver.findElement(By.xpath("//*[@id=\"overlay-3\"]/div[1]/div/div/a[3]/div/span")).click();
 		//for(WebElement each:all)
 		//{if (each.getText().equals("Grocery"))
 		//{

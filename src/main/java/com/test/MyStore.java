@@ -2,7 +2,9 @@ package com.test;
 
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class MyStore {
 
@@ -14,18 +16,18 @@ public class MyStore {
 		driver.manage().window().maximize();
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
-		 //WebElement search = driver.findElement(By.id("search_query_top"));
-		 //search.sendKeys("dress");
-		 //WebElement submit = driver.findElement(By.xpath("//button[@name='submit_search']"));
-		 //submit.click();
-		 //driver.findElement(By.partialLinkText("Summer Dress")).click(); 
-		 //driver.findElement(By.xpath("//a[@id='color_14']")).click();
-		 //WebElement size = driver.findElement(By.xpath("//select[@id='group_1']"));
-		 //Select s = new Select(size);
-		 //s.selectByValue("2");
-		 //driver.findElement(By.name("Submit")).click();
-		 //driver.findElement(By.linkText("Proceed to checkout")).click();
-		int slider=driver.findElements(By.className("homeslider-container")).size();
+		 WebElement search = driver.findElement(By.id("search_query_top"));
+		 search.sendKeys("dress");
+		 WebElement submit = driver.findElement(By.xpath("//button[@name='submit_search']"));
+		 submit.click();
+		 driver.findElement(By.partialLinkText("Summer Dress")).click(); 
+		 driver.findElement(By.xpath("//a[@id='color_14']")).click();
+		 WebElement size = driver.findElement(By.xpath("//select[@id='group_1']"));
+		 Select s = new Select(size);
+		 s.selectByValue("2");
+		 driver.findElement(By.name("Submit")).click();
+		 driver.findElement(By.linkText("Proceed to checkout")).click();
+		/*int slider=driver.findElements(By.className("homeslider-container")).size();
 		System.out.println(slider);
 		
 		int link = driver.findElements(By.tagName("a")).size();
@@ -33,7 +35,7 @@ public class MyStore {
 		
 		 
        driver.findElement(By.cssSelector("#search_query_top")).sendKeys("dress");
-       driver.findElement(By.cssSelector(".btn")).click();
+       driver.findElement(By.cssSelector(".btn")).click();*/
 				
 
 	}

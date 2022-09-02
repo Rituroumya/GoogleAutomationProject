@@ -33,13 +33,13 @@ List<WebElement> all = driver.findElements(By.xpath("//div[@class='newtabs horiz
 			}
 		
 		System.out.println(driver.getCurrentUrl());
-		driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@class='demo-frame lazyloaded']")));
+		//driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@class='demo-frame lazyloaded']")));
 
 		
-		Thread.sleep(3000);
+		/*Thread.sleep(3000);
 		WebElement source = driver.findElement(By.xpath("//div[@id='draggable']"));
 		WebElement target = driver.findElement(By.xpath("//div[@id='droppable']"));
-		a.dragAndDrop(source, target).build().perform();
+		a.dragAndDrop(source, target).build().perform();*/
 
 		
 

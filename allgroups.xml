@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="regression"></include>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNGpractice.DropdownPrac"/>
+      <class name="testNGpractice.FaceboocPrac"/>
+      <class name="testNGpractice.OrangeLogin"/>
+      <class name="testNGpractice.BootstrapDropdown"/>
+      <class name="testNGpractice.DemoFrames"/>
+      <class name="testNGpractice.DragDrop"/>
+      <class name="testNGpractice.TargetStore"/>
+      <class name="testNGpractice.MyStore"/>
+      <class name="testNGpractice.AmazonLogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

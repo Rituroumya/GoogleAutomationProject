@@ -19,7 +19,6 @@ public class PromptAlert {
 		driver.switchTo().frame(framealpha);
 		WebElement button = driver.findElement(By.xpath("//button[text()='Try it']"));
 		button.click();
-		
 		Alert at = driver.switchTo().alert();
 		Thread.sleep(3000);
 		at.sendKeys("ritu das");

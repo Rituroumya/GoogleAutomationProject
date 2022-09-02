@@ -3,6 +3,7 @@ package com.test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class MedPlus {
 
@@ -14,15 +15,11 @@ public class MedPlus {
 		driver.manage().window().maximize();
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
-		//WebElement search = driver.findElement(By.id("enterval"));
-	
-		//search.sendKeys("disprin");
-		//driver.findElement(By.name("btn"))
 		Actions a = new Actions(driver);
-		WebElement store = driver.findElement(By.xpath("//a[text()='Health Store']"));
-		WebElement baby = driver.findElement(By.xpath("//a[text()='Baby Needs']"));
-		
-		
+		WebElement hs = driver.findElement(By.xpath("//a[text()='Health Store']"));
+		a.moveToElement(hs).click().build().perform();
+	
+	
 
 
 	}
